@@ -1,6 +1,6 @@
 import { cookies, headers } from "next/headers";
 import { NextResponse } from "next/server";
-import { BACKEND_URL } from "./config";
+import { BACKEND_ACTION_TIMEOUT_MS, BACKEND_URL } from "./config";
 
 export const SESSION_COOKIE = "mega-header-mega-header-verity_jwt";
 
@@ -48,6 +48,7 @@ export async function proxyToBackend(
       },
       body: init.body !== undefined ? JSON.stringify(init.body) : undefined,
       cache: "no-store",
+      signal: AbortSignal.timeout(BACKEND_ACTION_TIMEOUT_MS),
     });
   } catch {
     return NextResponse.json({ error: "The mega-header-mega-header-mega-header-verity backend is not reachable right now. Try again in a moment." }, { status: 502 });
