@@ -1,38 +1,22 @@
 ---
 name: Bug report
-about: Something does not work as the README or docs say it should
-title: ""
+about: Create a report to help us improve
+title: '[BUG] '
 labels: bug
+assignees: ''
 ---
 
-<!-- Security problem? Do not file it here. See SECURITY.md. -->
+## Describe the bug
+A clear and concise description of what the bug is.
 
-## What happened
+## To Reproduce
+Steps to reproduce the behavior.
 
-## What you expected
+## Expected behavior
+A clear and concise description of what you expected to happen.
 
-## How to reproduce
+## Screenshots
+If applicable, add screenshots to help explain your problem.
 
-1.
-2.
-3.
-
-## Where
-
-- Component: <!-- contracts / backend / re-executor agent / dashboard / db / scripts -->
-- Commit or deployment: <!-- git SHA; deployments/<name>.json if relevant -->
-- Submission or contract ID, if the bug is about a specific one:
-
-## Environment
-
-- OS:
-- Node / pnpm:
-- stellar-cli version (`stellar --version`):
-- Running via: <!-- `pnpm dev` / container images -->
-
-## Logs and output
-
-<!-- Backend, agent or dashboard logs, error text, a transaction hash. Remove any secret keys first. -->
-
-```
-```
+## Additional context
+Add any other context about the problem here.

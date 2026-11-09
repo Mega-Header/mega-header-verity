@@ -1,27 +1,16 @@
 ---
-name: Feature or improvement
-about: Propose a change or take on a piece of planned work
-title: ""
+name: Feature request
+about: Suggest an idea for this project
+title: '[FEATURE] '
 labels: enhancement
+assignees: ''
 ---
 
-## Problem
+## Is your feature request related to a problem? Please describe.
+A clear and concise description of what the problem is.
 
-<!-- What is hard, missing or wrong today, and for whom? -->
+## Describe the solution you'd like
+A clear and concise description of what you want to happen.
 
-## Proposal
-
-<!-- What you would change. Name the files or modules involved if you know them. -->
-
-## Effect on what mega-header-mega-header-mega-header-verity proves
-
-<!-- Does this change how a verdict is reached, what a verdict means, or who can
-influence one? Phase 1 is economically enforced and replay-checked, not
-cryptographically proven. -->
-
-## Alternatives considered
-
-## Are you planning to work on it?
-
-- [ ] Yes, I would like to implement this
-- [ ] No, I am only suggesting it
+## Additional context
+Add any other context or screenshots about the feature request here.
