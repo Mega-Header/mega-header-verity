@@ -688,3 +688,12 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for setup, checks and the PR flow,
 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for a map of the code, and
 [`SECURITY.md`](SECURITY.md) for reporting a vulnerability. Licensed under
 [Apache-2.0](LICENSE).
+
+## Resolved Issues
+
+The following issues have been addressed in this release:
+
+- Added issue templates for bug reports and feature requests
+- Added contributing guidelines and CODEOWNERS
+- Improved repository documentation and onboarding
+
